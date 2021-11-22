@@ -1,0 +1,70 @@
+.header {
+    border: 2px solid teal;
+    color: darkcyan;
+    background-color: cadetblue;
+}
+.header li{
+    display: inline;
+}
+a
+{
+    text-decoration: none;
+}
+
+.header a{
+    color: white;
+    padding: 20px 20px 20px 18px;
+}
+.header a:hover{
+    color: cadetblue;
+    background-color: white;
+}
+
+
+ul
+{
+    list-style-type: none;
+}
+.main
+{
+   
+}
+section
+{
+    text-align: center;
+}
+section img
+{
+    display: inline-block;
+    border: 2px solid green;
+    padding: 20px;
+    margin: 80px 30px 10px 20px;
+}
+section img:hover {
+    background-color: #9dbd9d;
+}
+.testmonials
+{
+    border: 0.1px solid darkgrey;
+    width: 100%;
+    height: 30vh;
+    border-radius: 20px;
+}
+.testmonials h1{
+    text-align: left;
+    font-size: 24px;
+    color: brown;
+    text-transform: uppercase;
+    
+}
+.testmonials:hover{
+    background-color: blueviolet;
+}
+.testmonials p{
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    text-transform: lowercase;
+    padding: 2px 6px 3px 2px;
+    
+}
