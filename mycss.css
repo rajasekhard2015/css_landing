@@ -33,13 +33,6 @@ section
 {
     text-align: center;
 }
-section img
-{
-    display: inline-block;
-    border: 2px solid green;
-    padding: 20px;
-    margin: 80px 30px 10px 20px;
-}
 section img:hover {
     background-color: #9dbd9d;
 }
@@ -57,9 +50,6 @@ section img:hover {
     text-transform: uppercase;
     
 }
-.testmonials:hover{
-    background-color: blueviolet;
-}
 .testmonials p{
     text-align: left;
     font-size: 14px;
@@ -67,4 +57,38 @@ section img:hover {
     text-transform: lowercase;
     padding: 2px 6px 3px 2px;
     
+}
+.banner{
+    background-color: yellow;
+    margin: 12px 5px 2px 10px;
+    font-style: italic;
+    font-size: xx-large;
+    color: crimson;
+}
+.gallery
+{
+    display: -webkit-inline-box;
+    margin: 20px 10px 2px;
+}
+.gallery .item
+{
+    padding: 20px 60px 30px 10px;
+    border: 2px solid burlywood;
+    margin: 20px 10px 16px 22px;
+    text-align: center;
+}
+.gallery .item .btn
+{
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+}
+.gallery .item .btn:hover
+{
+    margin-top: 20px;
+    border-radius: 8px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
 }
