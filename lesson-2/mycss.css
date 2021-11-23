@@ -1,0 +1,38 @@
+section
+{
+    display: block;
+    width: auto;
+    flex: auto;
+    height: 20rem;
+    padding: 20px 20px 30px 10px;
+}
+#sec1
+{
+    background-color: azure;
+}
+#sec2
+{
+    background-color: aliceblue;
+}
+#sec3
+{
+    background-color: azure;
+}
+#sec4
+{
+    background-color: aliceblue;
+}
+section h2
+{
+    text-align: center;
+    text-decoration: underline;
+    color: cadetblue;
+}
+footer
+{
+    float: left;
+    padding: 20px 10px 18px 30px;
+    text-align: center;
+    color: cadetblue;
+    background-color: azure;
+}
